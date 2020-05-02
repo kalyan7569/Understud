@@ -1,0 +1,171 @@
+body{
+  font-family: "Montserrat-bold" , sans-serif;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+h2{font-family: "Montserrat-black",sans-serif;
+font-weight: bold;
+font-size: 3rem;
+line-height: 1.5;
+
+}
+h3{
+  font-family: "Montserrat-bold", sans-serif;
+  font-weight: 900;
+  color: black;
+}
+p{
+  color: #8f8f8f;
+}
+
+/* title section */
+.container-fluid{
+  padding: 4% 8% 8%;
+}
+#title{
+  background-color: #1f4068;
+  color: #fff ;
+}
+.navbar{
+  padding-bottom: 4.5rem ;
+}
+.navbar-brand{
+font-family: 'Concert One', cursive;
+font-size: 2.5rem;
+font-weight: 300;
+}
+.brand-name{
+
+  font-family: 'Courgette', cursive;
+  font-weight: bold;
+  font-size: 3rem
+}
+.dots{
+  font-size: 2rem;
+}
+.nav-link{
+
+  font-size: 1.3rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+.nav-item{
+  padding: 12px;
+}
+
+ /* download-button */
+.download-button{
+  margin: 5% 3% 5% 3%;
+}
+/* title-image */
+.title-image{
+  width: 60%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 30%
+}
+/* features */
+
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+}
+.feature-box{
+
+  text-align: center;
+  padding: 3rem;
+}
+.fas{
+
+
+  color: #1f4068;
+  margin-bottom: 1rem;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+
+/* testimonial */
+#testimonials{
+  background-color: #1f4068;
+
+  text-align: center;
+  color: #fff;
+
+}
+
+.test-img{
+  margin: 5%;
+  border-radius: 100%;
+  width: 15%;
+}
+.carousel-item{
+  padding: 7% 15% ;
+}
+#press{
+  background-color: #1f4068;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 15px 30px;
+
+}
+/* pricing section */
+#pricing{
+  padding:7% 15%;
+  text-align: center;
+}
+.price-col{
+padding: 3% 2%
+}
+
+/* call to action */
+#cta{
+  background-color: #1f4068;
+  text-align: center;
+  padding: 7% 15%;
+}
+.cta-text{
+  font-family: "Montserrat-black",sans-serif;
+  color: #fff;
+  font-size: 3rem;
+}
+#footer{
+  text-align: center;
+  color:black;
+  background-color: #fff;
+}
+.cta-icons{
+  padding: 20px;
+
+}
+.icon1{
+  color: black;
+}
+.cta-para{
+  font-size: 80%;
+}
+.cta-icons:hover{
+  color:#1f4068;
+}
+
+/* media */
+@media (max-width:1020px)
+{
+ .title{
+   text-align: center;
+ }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
